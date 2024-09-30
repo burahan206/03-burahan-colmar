@@ -59,7 +59,6 @@ nav {
 .banner-pic {
     width: 60%;
     height: auto;
-    border: 1px solid red;
 }
 
 .banner-pic img {
@@ -71,7 +70,6 @@ nav {
     display: flex;
     flex-direction: column;
     margin-left: 24px;
-    border: 1px solid red;
     justify-content: center;
     width: 30%;
     height: auto;
@@ -126,12 +124,17 @@ nav {
     height: auto;
     padding: 16px;
     padding-top: 0px;
-    border: 1px solid red;
+}
+
+.information-orientation:hover {
+    background-color:  rgb(194, 191, 191);
+
 }
 
 .information-orientation-pic {
     width: 35%;
     height: auto;
+    /* padding-top: 16px; */
 }
 
 .information-orientation-detail{
@@ -140,7 +143,6 @@ nav {
     width: 65%;
     margin-left: 24px;
     justify-content: center;
-    border: 1px solid red;
 }
 
 .information-campus{
@@ -148,7 +150,10 @@ nav {
     width: 100%;
     height: auto;
     padding: 16px;
-    border: 1px solid red;
+}
+
+.information-campus:hover {
+    background-color:  rgb(194, 191, 191);
 }
 
 .information-campus-pic{
@@ -162,8 +167,6 @@ nav {
     width: 65%;
     margin-left: 24px;
     justify-content: center;
-    border: 1px solid red;
-
 }
 
 .information-guest {
@@ -171,7 +174,6 @@ nav {
     width: 100%;
     height: auto;
     padding: 16px;
-    border: 1px solid red;
 }
 
 .information-guest-pic {
@@ -185,7 +187,10 @@ nav {
     width: 65%;
     margin-left: 24px;
     justify-content: center;
-    border: 1px solid red;
+}
+
+.information-guest:hover {
+    background-color:  rgb(194, 191, 191);
 }
 
 .start {
@@ -207,7 +212,6 @@ nav {
     padding-left: 72px;
     padding-right: 72px;
     width: 100%;
-    border: 1px solid red;
 }
 
 .start-learning-card-two {
@@ -216,7 +220,6 @@ nav {
     padding-left: 72px;
     padding-right: 72px;
     width: 100%;
-    border: 1px solid red;
 }
 
 .card-one{
@@ -228,7 +231,6 @@ nav {
 .course-software-pic {
     width: 100%;
     margin-right: 32px;
-    border: 1px solid red;
 }
 
 .card-two{
@@ -241,7 +243,6 @@ nav {
 .course-computer-art-pic {
     width: 100%;
     margin-right: 32px;
-    border: 1px solid red;
 }
 
 .card-three{
@@ -254,7 +255,6 @@ nav {
 .course-design-pic{
     width: 100%;
     margin-right: 32px;
-    border: 1px solid red;
 }
 
 .card-four{
@@ -266,7 +266,6 @@ nav {
 .course-data-pic{
     width: 100%;
     margin-right: 32px;
-    border: 1px solid red;
 }
 
 .card-five{
@@ -279,7 +278,6 @@ nav {
 .course-busines-pic{
     width: 100%;
     margin-right: 32px;
-    border: 1px solid red;
 }
 
 .card-six{
@@ -292,7 +290,6 @@ nav {
 .course-marketing-pic{
     width: 100%;
     margin-right: 32px;
-    border: 1px solid red;
 }
 
 
@@ -301,6 +298,7 @@ nav {
 }
 
 .thesis-exhibits {
+    background-color: white;
 
 }
 
@@ -317,8 +315,96 @@ nav {
     display: flex;
     flex-direction: column;
      justify-content: center;
+     width: 100%;
 }
 
 .thesis-container {
     display: flex;
+    width: 100%;
 }
+
+
+.thesis-video-section {
+    width: 60%;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+}
+
+.thesis-video {
+    width: 100%;
+    height: auto;
+    padding-bottom: 24px;
+}
+
+.thesis-video-section h4 {
+    padding-bottom: 8px;
+}
+
+.thesis-video-section p {
+    padding-bottom: 32px;
+}
+
+.thesis-content-section {
+    width: 40%;
+}
+
+.thesis-fisma-pic{
+    width: 35%;
+    height: auto;
+    padding: 16px;
+}
+
+.thesis-item-fisma {
+    display: flex;  
+}
+
+.thesis-item-fisma:hover {
+    background-color:  rgb(194, 191, 191);
+}
+
+.fisma-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 16px;
+}
+
+.thesis-now-and-then-pic{
+    width: 35%;
+    height: auto;
+    padding: 16px;
+}
+
+.thesis-item-now {
+    display: flex;
+}
+.thesis-item-now:hover {
+    background-color:  rgb(194, 191, 191);
+}
+.now-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 16px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 24px;
+    padding-top: 16px;
+    text-decoration: none;
+    border-top: 1px solid rgba(193, 193, 193, 0.825);
+}
+
+.footer-list {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer-list li a {
+    margin-left: 10px;
+}
+
