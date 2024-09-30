@@ -94,3 +94,231 @@ nav {
     background-color: rgb(86, 86, 86);
     color: white;
 }
+
+.information {
+    display: flex;
+}
+
+.information-main {
+    width: 60%;
+    padding-top: 32px;
+   
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.information-main-pic {
+    width: 100%;
+    height: auto;
+    padding-bottom: 32px;
+}
+
+.information-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top: 32px;
+}
+
+.information-orientation {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 16px;
+    padding-top: 0px;
+    border: 1px solid red;
+}
+
+.information-orientation-pic {
+    width: 35%;
+    height: auto;
+}
+
+.information-orientation-detail{
+    display:flex;
+    flex-direction: column;
+    width: 65%;
+    margin-left: 24px;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+.information-campus{
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 16px;
+    border: 1px solid red;
+}
+
+.information-campus-pic{
+    width: 35%;
+    height: auto;
+}
+
+.information-campus-detail {
+    display:flex;
+    flex-direction: column;
+    width: 65%;
+    margin-left: 24px;
+    justify-content: center;
+    border: 1px solid red;
+
+}
+
+.information-guest {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 16px;
+    border: 1px solid red;
+}
+
+.information-guest-pic {
+    width: 35%;
+    height: auto;
+}
+
+.information-guest-detail {
+    display:flex;
+    flex-direction: column;
+    width: 65%;
+    margin-left: 24px;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+.start {
+    background-color: rgb(194, 191, 191);
+    width: 100%;
+    padding-bottom: 32px;
+}
+
+.start-learning {
+    display: flex;
+    padding-top: 32px;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.start-learning-card-one {
+    display: flex;
+    padding-top: 32px;
+    padding-left: 72px;
+    padding-right: 72px;
+    width: 100%;
+    border: 1px solid red;
+}
+
+.start-learning-card-two {
+    display: flex;
+    padding-top: 32px;
+    padding-left: 72px;
+    padding-right: 72px;
+    width: 100%;
+    border: 1px solid red;
+}
+
+.card-one{
+    width: 30%;
+    height: auto;
+    background-color: white;
+}
+
+.course-software-pic {
+    width: 100%;
+    margin-right: 32px;
+    border: 1px solid red;
+}
+
+.card-two{
+    width: 30%;
+    height: auto;
+    margin-left: 32px;
+    background-color: white;
+}
+
+.course-computer-art-pic {
+    width: 100%;
+    margin-right: 32px;
+    border: 1px solid red;
+}
+
+.card-three{
+    width: 30%;
+    height: auto;
+    margin-left: 32px;
+    background-color: white;
+}
+
+.course-design-pic{
+    width: 100%;
+    margin-right: 32px;
+    border: 1px solid red;
+}
+
+.card-four{
+    width: 30%;
+    height: auto;
+    background-color: white;
+}
+
+.course-data-pic{
+    width: 100%;
+    margin-right: 32px;
+    border: 1px solid red;
+}
+
+.card-five{
+    width: 30%;
+    height: auto;
+    margin-left: 32px;
+    background-color: white;
+}
+
+.course-busines-pic{
+    width: 100%;
+    margin-right: 32px;
+    border: 1px solid red;
+}
+
+.card-six{
+    width: 30%;
+    height: auto;
+    margin-left: 32px;
+    background-color: white;
+}
+
+.course-marketing-pic{
+    width: 100%;
+    margin-right: 32px;
+    border: 1px solid red;
+}
+
+
+.card-contend{
+    padding-bottom: 24px;
+}
+
+.thesis-exhibits {
+
+}
+
+.topic{
+    display: flex ;
+    justify-content: center;
+    padding-top: 32px;
+    padding-bottom: 32PX;
+    font-size: 40px;
+
+}
+
+.thesis-exhibits {
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+}
+
+.thesis-container {
+    display: flex;
+}
